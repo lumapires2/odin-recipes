@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(118, 68, 17);
+}
+
+.text {
+    color: rgba(226, 213, 172, 0.527);
+}
+
+h1 { 
+    font-size: 100px;
+    font-family: 'Garamond';
+    font-style: oblique;
+    text-align: center;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.rezeptz-overview {
+    text-align: left;
+}
+
+h3 {
+    font-size: 40px;
+    background-color: rgba(245, 245, 220, 0.13);
+    font-family: 'Garamond';
+}
+
+.description {
+    font-size: 20px;
+    color: rgba(226, 213, 172, 0.527);
+}
+
+.rezeptz-image{
+    width: 500px;
+    text-align: left;
+}
