@@ -1,8 +1,5 @@
 body {
     background-color: rgb(118, 68, 17);
-}
-
-.text {
     color: rgba(226, 213, 172, 0.527);
 }
 
@@ -11,6 +8,7 @@ h1 {
     font-family: 'Garamond';
     font-style: oblique;
     text-align: center;
+    background-color: rgba(226, 213, 172, 0.062);
 
 }
 
@@ -25,16 +23,25 @@ img{
 
 h3 {
     font-size: 40px;
-    background-color: rgba(245, 245, 220, 0.13);
+    background-color: rgba(226, 213, 172, 0.062);
     font-family: 'Garamond';
 }
 
 .description {
     font-size: 20px;
-    color: rgba(226, 213, 172, 0.527);
 }
 
 .rezeptz-image{
     width: 500px;
     text-align: left;
+}
+
+body > a{
+    font-size: 10;
+    text-align: right;
+}
+
+#home {
+    font-size: 30px;
+    text-align: right;
 }
