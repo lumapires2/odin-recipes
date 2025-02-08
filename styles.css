@@ -1,15 +1,14 @@
 body {
     background-color: rgb(118, 68, 17);
     color: rgba(226, 213, 172, 0.527);
+    text-align: center;
 }
 
 h1 { 
     font-size: 100px;
     font-family: 'Garamond';
     font-style: oblique;
-    text-align: center;
     background-color: rgba(226, 213, 172, 0.062);
-
 }
 
 img{
@@ -19,6 +18,7 @@ img{
 
 .rezeptz-overview {
     text-align: left;
+    display: block;
 }
 
 h3 {
@@ -27,8 +27,22 @@ h3 {
     font-family: 'Garamond';
 }
 
+.feed-text{
+    text-align: center;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.feed-image{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
 .description {
     font-size: 20px;
+    padding: 10px;
+    text-align: justify;
 }
 
 .rezeptz-image{
@@ -44,4 +58,15 @@ body > a{
 #home {
     font-size: 30px;
     text-align: right;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+    gap: 20px;
+}
+
+.rezeptz .rezeptz-overview,
+.rezeptz .description{
+    padding: 20px;
 }
